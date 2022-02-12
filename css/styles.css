@@ -156,10 +156,22 @@ button {
   margin-right: 10px;
 }
 
-.contacts .contact:hover,
-.contacts .contact:focus {
+/* .contacts .contact:hover, */
+/* .contacts .contact:focus { */
+/* color: var(--accent-color); */
+/* } */
+
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
+
+/* .contact:hover .email-icon, */
+/* .contact:hover .phone-icon, */
+/* .contact:focus .email-icon, */
+/* .contact:focus .phone-icon { */
+/* fill: var(--accent-color); */
+/* } */
 
 .contact:hover .email-icon,
 .contact:hover .phone-icon,
@@ -453,8 +465,8 @@ button {
   margin-left: 0;
 }
 
-.clients-list .clients-link:hover,
-.clients-list .clients-link:focus {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
