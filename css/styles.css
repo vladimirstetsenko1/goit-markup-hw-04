@@ -408,7 +408,8 @@ button {
   background-color: var(--background-social-color);
 }
 
-.social-link:hover .social-icon {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: var(--secondary-social-color);
 }
 
