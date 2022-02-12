@@ -162,7 +162,9 @@ button {
 }
 
 .contact:hover .email-icon,
-.contact:hover .phone-icon {
+.contact:hover .phone-icon,
+.contact:focus .email-icon,
+.contact:focus .phone-icon {
   fill: var(--accent-color);
 }
 
@@ -382,7 +384,7 @@ button {
   padding-bottom: 30px;
 }
 
-.social-link + .social-link {
+.social-item + .social-item {
   margin-left: 10px;
 }
 
@@ -401,7 +403,8 @@ button {
   height: 20px;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--background-social-color);
 }
 
@@ -451,7 +454,7 @@ button {
 }
 
 .clients-list .clients-link:hover,
-.clients-icon:active {
+.clients-list .clients-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -551,7 +554,7 @@ button {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  fill: var(--first-social-color);
+  fill: var(--secondary-social-color);
   background-color: var(--footer-social-color);
 }
 
@@ -560,7 +563,8 @@ button {
   height: 20px;
 }
 
-.aside-link:hover {
+.aside-link:hover,
+.aside-link:focus {
   background-color: var(--background-social-color);
 }
 
