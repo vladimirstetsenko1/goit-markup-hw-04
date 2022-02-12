@@ -156,22 +156,10 @@ button {
   margin-right: 10px;
 }
 
-/* .contacts .contact:hover, */
-/* .contacts .contact:focus { */
-/* color: var(--accent-color); */
-/* } */
-
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
 }
-
-/* .contact:hover .email-icon, */
-/* .contact:hover .phone-icon, */
-/* .contact:focus .email-icon, */
-/* .contact:focus .phone-icon { */
-/* fill: var(--accent-color); */
-/* } */
 
 .contact:hover .email-icon,
 .contact:hover .phone-icon,
